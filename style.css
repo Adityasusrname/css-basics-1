@@ -1,0 +1,55 @@
+h1{
+    color: red;
+    font-size: 2em;
+    background-color: chocolate;
+}
+p{
+    color: green;
+}
+li{
+    list-style-type:circle;
+}
+li.special{
+    color: orange;
+    font-weight: bold;
+}
+li em{
+    color: blue;
+}
+ul+p{
+    color: blueviolet;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    text-decoration: none;
+}
+.para{
+    color: yellow;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin: 30px;
+    transform: rotate(0.8turn);
+}
+#hello{
+    background: beige;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    line-height: 200px;
+    
+}
+#hello>p{
+
+    color: black;
+    margin-left: calc(35%);
+    margin-top: calc(20%);
+}
+
